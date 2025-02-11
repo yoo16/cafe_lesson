@@ -16,6 +16,16 @@
             <h1 id="title" class="text-4xl font-bold text-gray-800"></h1>
             <p id="description" class="text-gray-600 mt-2"></p>
         </div>
+        <!-- Menu Button -->
+        <div class="container mx-auto text-right p-4">
+            <button onclick="showCart()" class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">
+                Cart
+                <span id="cartCount" class="bg-white text-yellow-500 rounded-full px-2 py-1 ml-2">0</span>
+            </button>
+            <button onclick="showOrderHistory()" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 ml-4">
+                Order History
+            </button>
+        </div>
     </header>
 
     <!-- メインコンテンツ -->

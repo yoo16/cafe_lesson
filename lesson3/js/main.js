@@ -23,3 +23,4 @@ descriptionElement.innerHTML = description;
 const copyRightElement = document.getElementById('copy-right');
 // copy right 追加
 copyRightElement.innerHTML = copyRight;
+
